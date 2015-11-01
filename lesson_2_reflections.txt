@@ -1,0 +1,8 @@
+Q- What happens when you initialize a repository? Why do you need to do it?
+
+A- A .git folder in the directory that git init is run. It is needed in order to create a starting point for the repository.
+
+
+Q- How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+A- The staging area is virtual in the sense that it only exists between the time files are untracked and when they are committed. Allows for new content to be grouped logically for commits.
