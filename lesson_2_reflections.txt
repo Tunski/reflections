@@ -6,3 +6,8 @@ A- A .git folder in the directory that git init is run. It is needed in order to
 Q- How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 A- The staging area is virtual in the sense that it only exists between the time files are untracked and when they are committed. Allows for new content to be grouped logically for commits.
+
+
+Q- How can you use the staging area to make sure you have one commit per logical change?
+
+A- You do this by adding only files/changes that are related to a logical change
