@@ -11,3 +11,19 @@ A- The staging area is virtual in the sense that it only exists between the time
 Q- How can you use the staging area to make sure you have one commit per logical change?
 
 A- You do this by adding only files/changes that are related to a logical change
+
+Q- What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A- When adding a new experimental feature
+   When a different version of the software is needed along side the original version of the software
+Branches help by keeping commits for the purpose of the branches isolated from the main branch thereby keeping illogical changes to the master away from the master.
+
+
+Q- How do the diagrams help you visualize the branch structure?
+
+A- It allows me to easily see where two branches "branched" off.
+
+
+Q- What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A- The result is that the changes in one branch are merged into the other. We represent it in the diagram the way we do to show that the new "master" is a result of a merge and contains the commits of the two branches.
