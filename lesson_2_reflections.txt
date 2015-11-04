@@ -27,3 +27,11 @@ A- It allows me to easily see where two branches "branched" off.
 Q- What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 A- The result is that the changes in one branch are merged into the other. We represent it in the diagram the way we do to show that the new "master" is a result of a merge and contains the commits of the two branches.
+
+
+Q- What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+A- Pros(Git)/Cons(Manual):
+	Saves time/ Time consuming
+   Cons:
+	Potential for conflicts/ easier to avoid conflicts
