@@ -18,3 +18,8 @@ A- 	Forking only exists within Github. It is not a feature of git. I'd use this 
 Q- What is the benefit of having a copy of the last known state of the remote stored locally?
 
 A- Allows you to keep track of changes to your local copy against the remote copy
+
+
+Q- How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+A- By using some other collaboration tools. For instance, Slack. However, Git and GitHub are built for code and collaboration and it would be difficult for other methods to match what git and Github do. Being able to see and add comments to changes would be harder. Having a view or actual copy of the modified files would also be made more difficult for the collaborators. It is difficult at the moment to think of what would be easier about collaborating with other methods.
