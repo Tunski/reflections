@@ -23,3 +23,11 @@ A- Allows you to keep track of changes to your local copy against the remote cop
 Q- How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 A- By using some other collaboration tools. For instance, Slack. However, Git and GitHub are built for code and collaboration and it would be difficult for other methods to match what git and Github do. Being able to see and add comments to changes would be harder. Having a view or actual copy of the modified files would also be made more difficult for the collaborators. It is difficult at the moment to think of what would be easier about collaborating with other methods.
+
+
+Preamble: You just saw that the workflow when making changes in a separate branch is more complicated than working directly in master, especially when you need to stay up-to-date with changes others are making. Rather than simply pulling and pushing, you need to pull changes into your local master branch, merge the local master into your branch (different-oil, in our case), then push your branch to the remote before finally merging your branch into master, either locally or on GitHub.
+
+Given that, please add the following question and your thoughts on it to your reflections file:
+Q- When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+A- I would want to do so when there is something truly expirental or risky that it will causing a significant malfunction of the master. The benefit of this is that it keeps the master stable.
